@@ -3,7 +3,7 @@ const ExponentSix = ({ count }) => (
     <p className="exponent-label">{count}⁶</p>
     <p className="exponent-result">
       {count} * {count} * {count} * {count} * {count} * {count} ={" "}
-      <span className="total">{count * count * count * count * count * count}</span>
+      <span className="total">{count ** 6}</span>
     </p>
   </div>
 );
